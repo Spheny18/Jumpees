@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1431470275524538945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431470275524538951}
+  - component: {fileID: 1431470275524538950}
+  - component: {fileID: 1048647591943911419}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431470275524538951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431470275524538945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4538071, y: -0.60756826, z: -10.276643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1431470275524538950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431470275524538945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dab76ebc5321cdd9de29ba25a2476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deaths: 0
+  PinkGoal: 0
+  BlueGoal: 0
+--- !u!114 &1048647591943911419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431470275524538945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c386186302e817598bbbce51c9eca27b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Walk
+    clip: {fileID: 8300000, guid: eb78d385a7a1107fb91dfd6f87b5032d, type: 3}
+    volume: 0.213
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Select
+    clip: {fileID: 8300000, guid: 1b134129d624e123cb62a7cdbe12205b, type: 3}
+    volume: 1
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Goal
+    clip: {fileID: 8300000, guid: 4e3cce91f257d72d888277da19668880, type: 3}
+    volume: 1
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: StrongJump
+    clip: {fileID: 8300000, guid: 1be55d546c53d364b825d4b672762f7b, type: 3}
+    volume: 1
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: WeakJump
+    clip: {fileID: 8300000, guid: 7f63486679229a990b960f19dab0b41c, type: 3}
+    volume: 1
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: WeakWalk
+    clip: {fileID: 8300000, guid: a3aafced5e954eec1becc2392d279d20, type: 3}
+    volume: 0.153
+    pitch: 1
+    audioSource: {fileID: 0}
